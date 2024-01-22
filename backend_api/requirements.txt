@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+sqlalchemy
+psycopg2-binary==2.9.1
+cloudinary
+langchain
+openai
+open-interpreter==0.1.15
+streamlit
+Pillow

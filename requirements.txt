@@ -1,0 +1,5 @@
+streamlit
+Pillow
+requests
+cloudinary
+open-interpreter==0.1.15
