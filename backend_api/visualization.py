@@ -3,7 +3,7 @@ import interpreter
 
 interpreter.auto_run = True
 interpreter.model = "gpt-3.5-turbo"
-interpreter.api_key = "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"
+interpreter.api_key = "openai_key"
 
 class Visualization:
     @staticmethod
