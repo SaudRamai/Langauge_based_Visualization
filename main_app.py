@@ -6,7 +6,6 @@ import requests
 from langchain.callbacks import get_openai_callback  
 from backend_api.visualization import Visualization
 from backend_api.database import DatabaseConnection
-from backend_api.visualization import Visualization
 import hmac
 import streamlit as st
 
