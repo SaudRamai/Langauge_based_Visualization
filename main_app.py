@@ -10,10 +10,19 @@ import hmac
 import streamlit as st
 
 
+import streamlit as st
+import hmac
+
 def check_password():
 
     def login_form():
         st.set_page_config(page_title="LexoGraph", layout="wide")
+        
+        logo_url = "/home/ramai.saud/Downloads/images.jpeg"
+        st.image(logo_url, width=100)
+        
+        st.title("LexoGraph")
+
         with st.form("Credentials"):
             st.text_input("Username", key="username")
             st.text_input("Password", type="password", key="password")
@@ -40,6 +49,7 @@ def check_password():
 
 if not check_password():
     st.stop()
+
 
 def main():
     if "history" not in st.session_state:
