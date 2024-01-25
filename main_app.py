@@ -9,10 +9,6 @@ from backend_api.database import DatabaseConnection
 import hmac
 import streamlit as st
 
-
-import streamlit as st
-import hmac
-
 def check_password():
 
     def login_form():
