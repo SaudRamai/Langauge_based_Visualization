@@ -14,8 +14,8 @@ def check_password():
     def login_form():
         st.set_page_config(page_title="LexoGraph", layout="wide")
         
-        logo_url = "/home/ramai.saud/Downloads/images.jpeg"
-        st.image(logo_url, width=100)
+        # logo_url = "/home/ramai.saud/Downloads/images.jpeg"
+        # st.image(logo_url, width=100)
         
         st.title("LexoGraph")
 
